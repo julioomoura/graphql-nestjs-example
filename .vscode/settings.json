@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "graphql",
+            "database": "${workspaceFolder:backend}/data/messages.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
